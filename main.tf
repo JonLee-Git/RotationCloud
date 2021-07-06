@@ -4,7 +4,7 @@ provider "aws" {
 }
  
 # create the VPC
-resource "aws_vpc" "jon_vpc" {
+resource "aws_vpc" "jon2_vpc" {     #testing
     cidr_block  =   "10.10.20.0/24" #Jon-lee 10.10.20.0/24 Akashni 10.10.30.0/24 Karabo 10.10.40.0/24
     enable_dns_support   = true
     enable_dns_hostnames = true
